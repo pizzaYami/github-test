@@ -1,5 +1,5 @@
 const Choco =()=>{
 	return(
-		<div>Choco!</div>
+		<div>Choco!!</div>
 	)
 }
