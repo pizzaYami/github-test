@@ -6,7 +6,7 @@ const SearchIngredient= ({str})=>{
 	const [isKor, setIsKor] = useState(false)
 	const [primaryData, setPrimaryData] = useState([])
 	const [usingData, setUsingData] = useState([])
-	const apiKey = 'AIzaSyCAML_uTKhZsBwPYCPnU4j-pwd98ykZ13E'; 
+	const apiKey = process.env.REACT_APP_API_KEY; 
 	const [eTextList, setETextList] = useState([]);
 	const [kTextList, setKTextList] = useState([]);
 
